@@ -87,11 +87,11 @@
                 </div>
 
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>Personal use</li>
-                     <li class="list-group-item"><i class="icon-ok text-danger"></i>Personal use</li>
-                     <li class="list-group-item"><i class="icon-ok text-danger"></i>Personal use</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>Unlimited projects</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>27/7 support</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>Sport</li>
+                     <li class="list-group-item"><i class="icon-ok text-danger"></i>Education/li>
+                     <li class="list-group-item"><i class="icon-ok text-danger"></i>Social</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>Envirnment</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>Medical</li>
                 </ul>
             </div>
                 </div><br>
@@ -143,13 +143,10 @@
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
-  <script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
+  
       <script>
         var Data ;
-          $.get('http://localhost:5555/api/events/markers', function (data) {
+          $.get('http://localhost:3000/api/events/markers', function (data) {
             console.log(data);
             console.log(data.locations.length)
             positions = data.locations;
